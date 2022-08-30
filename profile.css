@@ -1,0 +1,43 @@
+.nav li a {
+    color: white;
+}
+
+.mainCard{
+    padding: 0px;
+    margin-top: 80px;
+}
+
+.img-thumbnail{
+    border:0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: -20px;
+    margin-top: -10px;
+}
+
+.card-body{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    margin: 0;
+}
+
+.card-body h2{
+    text-align: left;
+    padding: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.card-body a{
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.sideCard{
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 30px;
+}
