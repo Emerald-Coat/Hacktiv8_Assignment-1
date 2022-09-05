@@ -24,8 +24,8 @@
                 <img src="img/potrait.jpeg" alt="profile pic">   
             </div>
             <div id="column2" class="column">
-                <h2>Rikza Fatiyamulya</h2>
-                <p>Front End Designer</p>
+                <h2 id="textNama">Rikza Fatiyamulya</h2>
+                <p id="textRole">Front End Designer</p>
                 <a id="kontak_link" target="_blank" href="kontak.html">Kontak</a>
                 <a id="resume_link" target="_blank" href="resume.html">Resume</a>
             </div>
@@ -38,23 +38,23 @@
                 <table>
                     <tr>
                         <td><b>Availability</b></td>
-                        <td>Full Time</td>
+                        <td id="textAva">Full Time</td>
                     </tr>
                     <tr>
                         <td><b>Usia</b></td>
-                        <td>22</td>
+                        <td id="textAge">22</td>
                     </tr>
                     <tr>
                         <td><b>Lokasi</b></td>    
-                        <td>Yogyakarta, Indonesia</td>
+                        <td id="textLokasi">Yogyakarta, Indonesia</td>
                     </tr>
                     <tr>
                         <td><b>Pengalaman</b></td>
-                        <td>0</td>
+                        <td id="textYear">0</td>
                     </tr>
                     <tr>
                         <td><b>Email</b></td>
-                        <td>Rxxx@gmail.com</td>
+                        <td id="textMail">Rxxx@gmail.com</td>
                     </tr>
 
                 </table>
@@ -64,24 +64,26 @@
         <div id="form">
             <form>
                 <label for="nama">Nama</label><br>
-                <input type="text" name="nama"><br>
+                <input id="formNama" type="text" name="formNama"><br>
                 <label for="role">Role</label><br>
-                <input type="text" name="role"><br>
+                <input id="formRole" type="text" name="role"><br>
                 <label for="availability">Availability</label><br>
-                <input type="text" name="availability"><br>
+                <input id="formAva" type="text" name="availability"><br>
                 <label for="usia">Usia</label><br>
-                <input type="text" name="usia"><br>
+                <input id="formAge" type="text" name="usia"><br>
                 <label for="lokasi">Lokasi</label><br>
-                <input type="text" name="lokasi"><br>
+                <input id="formLokasi" type="text" name="lokasi"><br>
                 <label for="yearsExperience">Years Experience</label><br>
-                <input type="text" name="yearsExperience"><br>
+                <input id="formYear" type="text" name="yearsExperience"><br>
                 <label for="email">Email</label><br>
-                <input type="email" name="email"><br>
-                <input id="submit" type="submit" value="Submit">
+                <input id="formMail" type="email" name="email"><br>
+                <button type="button" onclick="inputNama()">Submit</button>
             </form>
         </div>
     
     
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
