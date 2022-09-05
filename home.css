@@ -1,0 +1,135 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.zone{
+/* color: #fff; */
+font-size: 1.5em;
+border-radius: 4px;
+transition: all 0.3s linear;
+}
+
+/* NAV */
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999; /*Made navbar always on top layer */
+}
+
+nav.zone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: white;
+    
+}
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 0.8em;
+    margin: 0;
+    align-items: center;
+    width: auto;
+}
+h3{
+    padding-left: 100px;
+}
+
+@media only screen and (max-width: 600px){
+    .main-nav{
+        font-size: 0.5em;
+        padding: 0;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    h3{
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .push{
+        padding-right: 0;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+li{
+    padding: 0 20px;
+}
+
+.push{
+    margin-left: auto;
+    display: flex;
+    padding-right: 100px;
+}
+
+li>a{
+    text-decoration: none;
+    color: grey;
+}
+
+.btn{
+    background-color:rgb(75, 132, 207);
+    color: white;
+    padding: 5px 15px;
+}
+
+/* COVER */
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 10px 10%;
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+div.jumbotron>.btn{
+    margin-top: 15px;
+}
+
+/* Content */
+.content-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.card{
+    font-size: 0.9em;
+}
+
+.card-body>h5{
+    font-size: 1.2em;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    background: rgb(194, 187, 187);
+    margin-top: 30px;
+}
+
+.footer-text{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    /* padding: 10 20; */
+}
+
+.footer-text > li{
+    color: grey;
+    font-size: 0.8em;
+}
