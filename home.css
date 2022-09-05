@@ -116,7 +116,7 @@ div.jumbotron>.btn{
 /* FOOTER */
 footer{
     text-align: center;
-    background: rgb(194, 187, 187);
+    background: rgb(237, 234, 234);
     margin-top: 30px;
 }
 
@@ -130,6 +130,6 @@ footer{
 }
 
 .footer-text > li{
-    color: grey;
+    color: rgb(205, 198, 198);
     font-size: 0.8em;
 }
